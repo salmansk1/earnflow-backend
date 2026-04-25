@@ -18,8 +18,8 @@ export default function handler(req, res) {
     return res.send("0");
   }
 
-  // redirect to dashboard with coins
-  res.redirect(`https://earnflow123.rf.gd/dashboard.html?coins=${amount}`);
+  // ✅ SUCCESS RESPONSE
+  return res.send("1");
 }
 
 
