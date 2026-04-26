@@ -18,7 +18,7 @@ export default function handler(req, res) {
     return res.send("0");
   }
 
-  // ✅ SUCCESS RESPONSE
+  // success response for Wannads
   return res.send("1");
 }
 
